@@ -43,5 +43,5 @@ Cisco TAPS CLI interface to associate BAT DN with an Auto Registered DN. Tested 
   
 *E.164 Support*
   
-  > java -jar tapdance.jar -r 192.168.10.40 -b \+16785554001 -a 60003
+  > java -jar tapdance.jar -r 192.168.10.40 -b \\+16785554001 -a 60003
   
