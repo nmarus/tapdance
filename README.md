@@ -3,10 +3,10 @@ Cisco TAPS CLI interface to associate BAT DN with an Auto Registered DN. Tested 
 
 **Arguments:**
 
- -a,--auto-dn <arg>    Directory number of Auto Registered phone
- -b,--bat-dn <arg>     Directory number of BAT phone
- -h,--help             Help
- -r,--rmi-host <arg>   Cisco Communication Manager RMI Hostname or IP
+-a,--auto-dn <arg>    Directory number of Auto Registered phone
+-b,--bat-dn <arg>     Directory number of BAT phone
+-h,--help             Help
+-r,--rmi-host <arg>   Cisco Communication Manager RMI Hostname or IP
 
 **Return Codes:**
 
