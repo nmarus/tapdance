@@ -10,14 +10,14 @@ Cisco TAPS CLI interface to associate BAT DN with an Auto Registered DN. Tested 
 
 **Return Codes:**
 
- -8   Incomplete
- -7   Not Found
- -6   Not Auto Registered
- -5   Not a BAT Device
- -3   Duplicate
- -2   Incomplete
- -1   Protected DN
- -0   Successfull
+ * 8   Incomplete
+ * 7   Not Found
+ * 6   Not Auto Registered
+ * 5   Not a BAT Device
+ * 3   Duplicate DN (See Example 2 for using EPNM)
+ * 2   Incomplete
+ * 1   Protected DN
+ * 0   Successfull
 
 **Examples:**
 
