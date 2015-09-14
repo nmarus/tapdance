@@ -86,13 +86,13 @@ public class Main {
                 }
             } catch (NotBoundException e) {
                 System.out.println("Error: Not bound.");
-                System.exit(1);
+                System.exit(9);
             } catch (MalformedURLException e) {
                 System.out.println("Error: Malformed URL.");
-                System.exit(1);
+                System.exit(9);
             } catch (RemoteException e) {
                 System.out.println("Error: Remote Exception.");
-                System.exit(1);
+                System.exit(9);
             }
         } else {
             System.out.println("Error: Connection not available to RMI at "+rmiURL);
