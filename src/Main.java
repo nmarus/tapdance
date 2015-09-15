@@ -54,13 +54,13 @@ public class Main {
                 autodn = line.getOptionValue("auto-dn");
             } else {
                 formatter.printHelp(useText, header, options, footer);
-                System.exit(1);
+                System.exit(9);
             }
 
         }
         catch(ParseException exp) {
             formatter.printHelp(useText, header, options, footer);
-            System.exit(1);
+            System.exit(9);
         }
 
         //CUCM RMI URL
@@ -96,7 +96,7 @@ public class Main {
             }
         } else {
             System.out.println("Error: Connection not available to RMI at "+rmiURL);
-            System.exit(1);
+            System.exit(9);
         }
 
         System.exit(0);
