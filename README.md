@@ -5,20 +5,27 @@ Cisco TAPS CLI interface to associate BAT DN with an Auto Registered DN. Tested 
 
 *Directory number of Auto Registered phone:*
 
-  > -a, --auto-dn <arg>
+```bash
+-a, --auto-dn <arg>
+```
 
 *Directory number of BAT phone:*
 
-  > -b, --bat-dn <arg>
+```bash
+-b, --bat-dn <arg>
+```
 
 *Cisco Communication Manager RMI Hostname or IP:*
 
-  > -r, --rmi-host <arg>
+```bash
+-r, --rmi-host <arg>
+```
 
 *Help:*
 
-  > -h, --help
-
+```bash
+-h, --help
+```
 
 **Return Codes:**
 
@@ -35,13 +42,18 @@ Cisco TAPS CLI interface to associate BAT DN with an Auto Registered DN. Tested 
 
 *Standard Registration*
 
-  > java -jar tapdance.jar -r 192.168.10.40 -b 65022 -a 60001
-  
+```bash
+java -jar tapdance.jar -r 192.168.10.40 -b 65022 -a 60001
+```
+
 *Duplicate DN with added EPNM*
-  
-  > java -jar tapdance.jar -r 192.168.10.40 -b 65022::6785554001 -a 60002
-  
+
+```bash  
+java -jar tapdance.jar -r 192.168.10.40 -b 65022::6785554001 -a 60002
+```
+
 *E.164 Support*
-  
-  > java -jar tapdance.jar -r 192.168.10.40 -b \\+16785554001 -a 60003
-  
+
+```bash  
+java -jar tapdance.jar -r 192.168.10.40 -b \\+16785554001 -a 60003
+```
