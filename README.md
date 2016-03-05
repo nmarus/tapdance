@@ -1,4 +1,4 @@
-#tapdance#
+# tapdance
 Cisco TAPS CLI interface to associate BAT DN with an Auto Registered DN. Tested with JRE 1.7 and CUCM 10.5.X
 
 **Arguments:**
